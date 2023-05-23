@@ -25,7 +25,7 @@ but I am taking Jeremy’s advice and went ahead with building my animal classif
 
 [Here is the link to my notebook GUI that can use the images to determine what animal it is!](https://colab.research.google.com/drive/1f7c881ImRZC4xVS6VUMfh-2akrpRVFPq#scrollTo=SBnJD5JJZclE&line=1&uniqifier=1)
 
-![Animal Classifier GUI](images/Screenshot 2023-05-23 134711.png.jpg)
+![Animal Classifier GUI](images/Screenshot 2023-05-23 134711.png)
 
 
 
