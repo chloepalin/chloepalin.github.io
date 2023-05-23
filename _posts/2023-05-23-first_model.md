@@ -23,9 +23,9 @@ so that I could fine-tune my model with a reasonable error rate. The table shows
 I still feel a little uncomfortable to run so much code that I don’t fully understand yet (as I am still in the early stages of the fast.ai course), 
 but I am taking Jeremy’s advice and went ahead with building my animal classifier model. I'm sure as I get further ahead in the course, the code will begin to make sense. What I know so far though is that fast.ai is very neat code and very powerful. 
 
-[Here is the link to my final cell that can use the images to determine what animal it is!](https://colab.research.google.com/drive/1f7c881ImRZC4xVS6VUMfh-2akrpRVFPq#scrollTo=SBnJD5JJZclE&line=1&uniqifier=1)
+[Here is the link to my notebook cell that can use the images to determine what animal it is!](https://colab.research.google.com/drive/1f7c881ImRZC4xVS6VUMfh-2akrpRVFPq#scrollTo=SBnJD5JJZclE&line=1&uniqifier=1)
 
-
+Screenshot 2023-05-23 134711.png
 
 
 
