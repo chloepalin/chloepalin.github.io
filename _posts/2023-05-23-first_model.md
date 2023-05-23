@@ -4,9 +4,6 @@ This morning, I trained a model in fast.ai that does a surprisingly decent job o
 Through a series of iterative experiments, I carefully adjusted the search parameters to generate specific search strings. 
 so that I could fine-tune my model with a reasonable error rate. 
 
-I feel a little uncomfortable to run so much code that I don’t fully understand yet (as I am still in the early stages of the fast.ai course), 
-but I am taking Jeremy’s advice and building my animal classifier model first.
-
 | epoch | train_loss | valid_loss | error_rate | time  |
 |-------|------------|------------|------------|-------|
 | 0     | 1.632080   | 0.261099   | 0.070270   | 00:28 |
@@ -20,6 +17,12 @@ but I am taking Jeremy’s advice and building my animal classifier model first.
 | 7     | 0.012272   | 0.138629   | 0.043243   | 00:16 |
 | 8     | 0.008557   | 0.137629   | 0.045946   | 00:11 |
 | 9     | 0.005860   | 0.136397   | 0.043243   | 00:10 |
+
+[Here’s my animal classifier notebook!](https://colab.research.google.com/drive/1f7c881ImRZC4xVS6VUMfh-2akrpRVFPq#scrollTo=QRzAlHhYSedH)
+
+I feel a little uncomfortable to run so much code that I don’t fully understand yet (as I am still in the early stages of the fast.ai course), 
+but I am taking Jeremy’s advice and building my animal classifier model first.
+
 
 
 
