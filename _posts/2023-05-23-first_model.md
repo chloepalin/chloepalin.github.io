@@ -5,7 +5,7 @@ This morning, I trained a model in fast.ai that does a surprisingly decent job o
 [Here’s my animal classifier notebook!](https://colab.research.google.com/drive/1f7c881ImRZC4xVS6VUMfh-2akrpRVFPq#scrollTo=QRzAlHhYSedH)
 
 Through a series of iterative experiments, I carefully adjusted the search parameters to generate specific search strings. 
-so that I could fine-tune my model with a reasonable error rate. The table shows the results of my `vision_learner()` which uses `resnet18`.
+so that I could fine-tune my model with a reasonable error rate. My quest for enhanced accuracy began with the deployment of a `ResNet18` model with `vision_learner()`, paving the way for precise fine-tuning of my model. The table below showcases the evolution the trained model over ten epochs:
 
 | epoch | train_loss | valid_loss | error_rate | time  |
 |-------|------------|------------|------------|-------|
@@ -20,12 +20,12 @@ so that I could fine-tune my model with a reasonable error rate. The table shows
 | 8     | 0.008557   | 0.137629   | 0.045946   | 00:11 |
 | 9     | 0.005860   | 0.136397   | 0.043243   | 00:10 |
 
-I still feel a little uncomfortable to run so much code that I don’t fully understand yet (as I am still in the early stages of the fast.ai course), 
-but I am taking Jeremy’s advice and went ahead with building my animal classifier model. I'm sure as I get further ahead in the course, the code will begin to make sense. What I know so far though is that fast.ai is very neat code and very powerful. 
+With each passing epoch, I observed a consistent decrease in both training and validation losses. This reduction in losses is a strong indicator of the model's ability to better understand and classify from the training data, translating into improved accuracy. Remarkably, by the ninth epoch, the training loss had dwindled to an impressive 0.005860, with a validation loss of 0.136397. Surprisingly, the error rate remained steady at 0.043243 from the fifth to the ninth epoch, underscoring the model's capacity to maintain its newfound accuracy. From my trained model, I was able to analyse the results with confusion matrices and T-SNE, which I will explain further in my assessment report. 
 
 [Here is the link to my notebook GUI that can use the images to determine what animal it is!](https://colab.research.google.com/drive/1f7c881ImRZC4xVS6VUMfh-2akrpRVFPq#scrollTo=SBnJD5JJZclE&line=1&uniqifier=1)
 The GUI shows the probability of the animal it has chosen as the predicted animal. 
 
 ![Notebook cell output](cell.png)
 
-
+I still feel a little uncomfortable to run so much code that I don’t fully understand yet (as I am still in the early stages of the fast.ai course), 
+but I am taking Jeremy’s advice and went ahead with building my animal classifier model. I'm sure as I get further ahead in the course, the code will begin to make sense. What I know so far though is that fast.ai is very, very neat code!
