@@ -1,0 +1,6 @@
+## Using CNNs with large datasets to avoid overfitting
+
+In today's post, I will be going through a step-by-step process to explain how to bulid a CNN which can classify images of cats or dogs.
+This is based on the Kaggle challenge that Jeremy presented in lesson 2.
+
+
