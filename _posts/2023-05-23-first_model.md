@@ -1,12 +1,14 @@
 ## My first Fast.ai Model
 
 This morning, I trained a model in fast.ai that does a surprisingly decent job of differentiating between 10 different animals. 
+
+[Here’s my animal classifier notebook!](https://colab.research.google.com/drive/1f7c881ImRZC4xVS6VUMfh-2akrpRVFPq#scrollTo=QRzAlHhYSedH)
+
 Through a series of iterative experiments, I carefully adjusted the search parameters to generate specific search strings. 
-so that I could fine-tune my model with a reasonable error rate. 
+so that I could fine-tune my model with a reasonable error rate. The table shows the results of my `vision_learner()` which uses `resnet18`.
 
 | epoch | train_loss | valid_loss | error_rate | time  |
 |-------|------------|------------|------------|-------|
-| 0     | 1.632080   | 0.261099   | 0.070270   | 00:28 |
 | 0     | 0.255739   | 0.212580   | 0.064865   | 00:11 |
 | 1     | 0.144847   | 0.174920   | 0.064865   | 00:11 |
 | 2     | 0.090092   | 0.178747   | 0.051351   | 00:09 |
@@ -18,10 +20,13 @@ so that I could fine-tune my model with a reasonable error rate.
 | 8     | 0.008557   | 0.137629   | 0.045946   | 00:11 |
 | 9     | 0.005860   | 0.136397   | 0.043243   | 00:10 |
 
-[Here’s my animal classifier notebook!](https://colab.research.google.com/drive/1f7c881ImRZC4xVS6VUMfh-2akrpRVFPq#scrollTo=QRzAlHhYSedH)
+I still feel a little uncomfortable to run so much code that I don’t fully understand yet (as I am still in the early stages of the fast.ai course), 
+but I am taking Jeremy’s advice and went ahead with building my animal classifier model. I'm sure as I get further ahead in the course, the code will begin to make sense. What I know so far though is that fast.ai is very neat code and very powerful. 
 
-I feel a little uncomfortable to run so much code that I don’t fully understand yet (as I am still in the early stages of the fast.ai course), 
-but I am taking Jeremy’s advice and building my animal classifier model first.
+[Here is the link to my final cell that can use the images to determine what animal it is!](https://colab.research.google.com/drive/1f7c881ImRZC4xVS6VUMfh-2akrpRVFPq#scrollTo=SBnJD5JJZclE&line=1&uniqifier=1)
+
+
+
 
 
 
