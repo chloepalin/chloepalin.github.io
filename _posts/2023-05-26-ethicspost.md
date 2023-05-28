@@ -4,7 +4,11 @@ As engineers, we have a profound responsibility to consider the implications of 
 
 ## Unintended consequences of AI
 
-AI systems are designed to learn and make decisions based on provided data. However, they can also inadvertently perpetuate bias, discrimination, and inequality present in the data they are trained on. This can cause very damaging results on the outcomes by marginalising certain groups or reinforcing sterotypes. Additionally, AI systems may lead to job displacement, privacy concerns, and erosion of human autonomy if not carefully implemented. As such, it is really important that we can learn to recongise these unintended consequences so that we can address them correctly.
+AI systems are designed to learn and make decisions based on provided data. However, they can also inadvertently perpetuate bias, discrimination, and inequality present in the data they are trained on. This can cause very damaging results on the outcomes by marginalising certain groups or reinforcing sterotypes. Additionally, AI systems may lead to job displacement, privacy concerns, and erosion of human autonomy if not carefully implemented. 
+
+Cybersecurity is another major concern, with research noting that synthetically generated human faces can be used in false acceptance attacks and have the potential to gain unauthorised access to digital systems [(J. Xhang, 2020)](https://arxiv.org/pdf/2301.03966.pdf). A 2023 paper on the [evaluation of robotic and generative adversial attacks](https://www.sciencedirect.com/science/article/pii/S0020025523003304) observed that fake signatures could overcome signature verification systems without a problem. As such, it is really important that we can learn to recongise these unintended consequences so that we can address them correctly.
+
+
 
 ## CIFAKE dataset
 
